@@ -30,7 +30,7 @@ DIGEST_ARTICLE_COUNT = 5        # how many to include in the final digest (short
 GNEWS_LOOKBACK_HOURS = 24        # GNews window - kept tight since this runs daily;
                                  # the Google News RSS fallback covers cases where
                                  # GNews has nothing fresh in the last 24h
-GEMINI_MODEL = "gemini-2.5-flash"  # fast, free-tier-friendly model
+GEMINI_MODEL = "gemini-3.5-flash-lite"  # fast, free-tier-friendly model
 SGT = timezone(timedelta(hours=8))  # Singapore Time
 
 SENT_ARTICLES_FILE = "sent_articles.json"  # tracks previously-sent URLs so the
